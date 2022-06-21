@@ -1,0 +1,8 @@
+redisUrl: "127.0.0.1:6379"
+redisPassword: "123456"
+redisDB: 0
+redisTimeout: 60
+redisMaxActive: 100
+maxIdle: 100
+redisMaxIdleSeconds: 60
+redisWaitExhaust: true

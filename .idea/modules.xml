@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/golang.iml" filepath="$PROJECT_DIR$/.idea/golang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang_redis/.idea/golang_redis.iml" filepath="$PROJECT_DIR$/golang_redis/.idea/golang_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang_swagger/.idea/golang_swagger.iml" filepath="$PROJECT_DIR$/golang_swagger/.idea/golang_swagger.iml" />
+    </modules>
+  </component>
+</project>

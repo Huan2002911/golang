@@ -1,0 +1,42 @@
+definitions:
+  orm.Login:
+    properties:
+      passWord:
+        type: string
+      user:
+        type: string
+    type: object
+  orm.LoginResponse:
+    properties:
+      code:
+        type: integer
+      message:
+        type: string
+    type: object
+info:
+  contact: {}
+  title: Swagger_Test
+  version: "1.0"
+paths:
+  /swagger/user/login:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: 请求体
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/orm.Login'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 成功
+          schema:
+            $ref: '#/definitions/orm.LoginResponse'
+      summary: 用户登录
+      tags:
+      - user
+swagger: "2.0"
